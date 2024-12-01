@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(152, 157, 70);
+    margin: 0;
+}
+
+.loading {
+    height: 200px;
+    width: 200px;
+    border: 12px solid black;
+    border-radius: 50%;
+    border-right-color: rgb(244, 229, 11);
+    animation: circle 1s linear infinite;
+}
+
+@keyframes circle {
+    100% {
+        transform: rotate(360deg);
+    }
+}
